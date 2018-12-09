@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21506" started-at="2018-12-08T12:40:27Z" finished-at="2018-12-08T12:40:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21506" started-at="2018-12-08T12:40:27Z" finished-at="2018-12-08T12:40:49Z">
+      <class name="userManagement.OrangeTask.SystemUsers">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:userManagement.OrangeTask.SystemUsers@4c70fda8]" name="openURL" is-config="true" duration-ms="11656" started-at="2018-12-08T12:40:27Z" finished-at="2018-12-08T12:40:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="userLogin()[pri:1, instance:userManagement.OrangeTask.SystemUsers@4c70fda8]" name="userLogin" duration-ms="2227" started-at="2018-12-08T12:40:39Z" finished-at="2018-12-08T12:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="openSysUsersPage()[pri:2, instance:userManagement.OrangeTask.SystemUsers@4c70fda8]" name="openSysUsersPage" duration-ms="3685" started-at="2018-12-08T12:40:41Z" finished-at="2018-12-08T12:40:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSysUsersPage -->
+        <test-method status="PASS" signature="searchForUser()[pri:3, instance:userManagement.OrangeTask.SystemUsers@4c70fda8]" name="searchForUser" duration-ms="1095" started-at="2018-12-08T12:40:45Z" finished-at="2018-12-08T12:40:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForUser -->
+        <test-method status="PASS" signature="closeBrowser()[pri:4, instance:userManagement.OrangeTask.SystemUsers@4c70fda8]" name="closeBrowser" duration-ms="2747" started-at="2018-12-08T12:40:46Z" finished-at="2018-12-08T12:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- userManagement.OrangeTask.SystemUsers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
